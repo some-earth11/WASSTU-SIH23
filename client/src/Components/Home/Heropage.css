@@ -1,0 +1,89 @@
+/* HeroComponent.module.css */
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato:wght@300;400;700&family=Mochiy+Pop+One&family=Nunito:wght@200&family=Poppins:wght@300;400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Alice&family=Dancing+Script:wght@500&family=Lato:wght@300;400;700&family=Mochiy+Pop+One&family=Nunito:wght@200&family=Poppins:wght@300;400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Alice&family=Dancing+Script:wght@500&family=Lato:wght@300;400;700&family=Mochiy+Pop+One&family=Nunito:wght@200&family=Poppins:wght@300;400;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+.container {
+    display: flex;
+    max-width: auto;
+    min-height: 88vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #E9E9E9;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+    
+   
+    
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    font-family: 'Alice', serif;
+    margin-top: 60px;
+  }
+  .h{
+    font-family: 'Alice', serif;
+    margin-bottom: -40px;
+    font-size: 2rem;
+    font-weight: 200;
+  }
+  
+  .title {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-weight: 650;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #0033CC;
+
+  }
+  .title-tale{
+    font-weight: 400;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 4rem;
+    color:#0033CC;
+  }
+  
+  .description {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Alice', serif;
+  }
+  
+  .cta-button {
+    background-color: #0033CC;
+    color: #FFBB33;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Zilla Slab', serif;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
