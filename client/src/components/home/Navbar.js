@@ -1,20 +1,23 @@
-import React from 'react';
-import './Navbar.css'; // Import your CSS file
+import React from 'react'
+import './Navbar.css'
 
-const Navbar = () => {
-  return (
-    <nav className="navbar">
-      <div className="navbar-logo">
-        <a href="/">LegalEase</a>
-      </div>
-      <ul className="navbar-links">
-        <li><a href="/about">About</a></li>
-        <li><a href="/our ">Our Team</a></li>
-        <li><a href="/pricing">Pricing</a></li>
-        <li><a href="/logout">Logout</a></li>
-      </ul>
-    </nav>
-  );
-};
+function Navbar() {
+    return (
+        <div>
+            <nav>
+                <div className="container1">
+                    <h1 className='heading'>LegalEase</h1>
+                    <ul>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/steps">How it Works? </a></li>
+                        <li><a href="/team">Our Team</a></li>
+                        <li><a href="/getstarted">Get Started</a></li>
 
-export default Navbar;
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    )
+}
+
+export default Navbar

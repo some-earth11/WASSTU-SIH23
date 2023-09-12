@@ -1,21 +1,28 @@
-import React from 'react';
-import './Heropage.css'; // Import your CSS file
+import React from 'react'
+import './Heropage.css'
 
-const HeroPage = () => {
-  return (
-    <div className="hero-container">
-      <h1 className="hero-title">
-        <span className="alice-text">Welcome To</span>
-        <br />
-        <span className="hero-legal-ease">Legal Ease</span>
-      </h1>
-      <p className="hero-subtitle">
-        <span className="alice-text">An AI-Powered Legal Document Assistant</span>
-      </p>
-      <button className="get-started-button">Get Started</button>
+function Heropage() {
+    return (
+        <div className="container">
+      <div className="content">
+        <h3 className='h'>Welcome to</h3>
+        <p className="title">Legal<span className="title-tale">Ease</span></p>
+        <p className="description">
+        An AI-Powered Legal Documentation Assistant
+          
+          
+        </p>
+        <button className="cta-button">Get Started</button>
+      </div>
+      {/* <div className="image-container">
+        <img
+          src="https://via.placeholder.com/400x400" // Replace with your image URL
+          alt="Sample"
+          className="image"
+        />
+      </div> */}
     </div>
-  );
-};
+    )
+}
 
-export default HeroPage;
-
+export default Heropage
