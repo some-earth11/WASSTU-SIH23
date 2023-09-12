@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #0033CC;
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links li {
+  font-size: 18px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Add hover effect for links */
+.navbar-links a:hover {
+  text-decoration: underline;
+}
