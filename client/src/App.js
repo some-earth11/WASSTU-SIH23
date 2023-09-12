@@ -1,7 +1,7 @@
-
 import Navbar from './Components/Home/Navbar';
 import Heropage from './Components/Home/Heropage';
 import AboutSection from './Components/Home/AboutSection';
+
 import './App.css';
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <Navbar />
       <Heropage />
       <AboutSection />
+
     </div>
   );
 }
