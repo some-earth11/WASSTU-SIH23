@@ -1,0 +1,121 @@
+.how-it-works {
+  padding: 20px;
+  background-color: white; /* Add a white background to the entire section */
+}
+
+.header {
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.website-name {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.website-description {
+  font-size: 18px;
+  color: #888;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.step {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #0033CC;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.circle-short {
+  width: 50px;
+  height: 50px;
+  background-color: #0033CC;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: white; /* Add a white background */
+}
+
+.card img {
+  max-width: 50px;
+  margin-bottom: 10px;
+}
+
+.dotted-line {
+  width: 2px;
+  background-color: #0033CC;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.processing {
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  border: 2px solid #f0f0f0; /* Add a border with the specified color */
+}
+
+
+.processing-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #3498db;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.processing-icon::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  
